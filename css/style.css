@@ -3,3 +3,44 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-size: 16px;
+    background-color: #083b4c;
+}
+
+.contenuto-header h1 {
+    font-size: 5rem;
+}
+
+.green {
+    background-color: #083b4c;
+}
+
+.contenuto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quadrato {
+    width: 120px;
+    height: 120px;
+    background-color: #1389b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.fizzbuzz {
+    background-color: #f0466f;
+}
+
+.fizz {
+    background-color: #0cd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
